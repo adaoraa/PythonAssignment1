@@ -25,4 +25,7 @@ print(y)
 common_elements=list(set(x).intersection(y))
 print(common_elements)
 
-# variable x generates random list of
+# variable x generates random list given range the user inputs
+# variable y does the same as variable x
+# The varaible common_elements prints the common elements between the random lists
+    # Sometimes there will be no common elements which is why this is impractical
