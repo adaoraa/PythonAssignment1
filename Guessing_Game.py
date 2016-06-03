@@ -20,7 +20,7 @@ while num1 > 0:  # loop will run given that initial assignment of 2 is greater t
         print('Your guess is not within range')
     elif correct_guess:  # tells user they guessed right
         print('You guessed exactly right')
-        print('You guessed the correct number in this many attempts:', attempts)
+        print('You guessed the correct number in',attempts,'attempts')
         break  # once user guesses correctly, quit program
 
 
