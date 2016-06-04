@@ -10,7 +10,6 @@ import random
 count = int(input('How many fibonacci numbers would you like to generate?: '))  # fibonacci numbers to generate
 print('We are going to generate', count, 'fibonacci numbers')
 count_list = [i for i in range(count)]  # generates list of length count variable integer
-print(count_list)
 fibonacci_list = [1, 1]  # the fibonacci sequence initially starts with two 1's
 
 
@@ -18,6 +17,6 @@ def main(fibonacci_list):  # function definition main has 1 augment given by fib
     return fibonacci_list.append(fibonacci_list[-1] + fibonacci_list[-2])
     # append fibonacci list w/ pattern that starts w/ 1 and adds previous 2 elements; list ends in length given by user
 
-for i in range(count):
-    main(fibonacci_list)
-print(fibonacci_list)  # variable...
+for i in range(count):  # accounts for every element in range given by user
+    main(fibonacci_list)  # calling function 
+print(fibonacci_list)
